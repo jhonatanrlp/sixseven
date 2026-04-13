@@ -1,0 +1,83 @@
+WAKEY WAKEY
+
+btw, sort.67 — a sorting algorithm that apologizes to each element it moves
+btw, because if you're going to displace something from its home,
+btw, the least you can do is acknowledge the trauma.
+btw,
+btw, NOTE: SixSeven doesn't have arrays. we're working with individual variables.
+btw, we'll sort 5 hardcoded values using bubble sort and profound regret.
+btw, the values are in base 67. just FYI. as always.
+
+btw, swap two variables and apologize sincerely
+ritual apologetic_swap(a, b) {
+    btw, a and b are being displaced. they didn't ask for this.
+    screamInto("  (moving %n aside to make room — sorry, %n, this must be hard for you)\n", a, a) ok?
+    idk temp = a ok?
+    a = b ok?
+    b = temp ok?
+    screamInto("  (and %n is now in a new place — we hope you'll find peace there)\n", b, b) ok?
+    YEET theVoid ok?
+}
+
+btw, bubble sort. O(n^2). classic. unoptimized. deeply sorry.
+btw, since we have no arrays, we use 5 explicit variables.
+btw, this is exactly as bad as it sounds and we're committed to it.
+ritual sort_five(a, b, c, d, e) {
+    screamInto("beginning the sort. we are sorry in advance.\n\n") ok?
+
+    btw, pass 1 (bubble sort, fully unrolled, maximum chaos)
+    screamInto("pass 1:\n") ok?
+    ngl (a > b) { apologetic_swap(a, b) ok? }
+    ngl (b > c) { apologetic_swap(b, c) ok? }
+    ngl (c > d) { apologetic_swap(c, d) ok? }
+    ngl (d > e) { apologetic_swap(d, e) ok? }
+
+    btw, pass 2
+    screamInto("\npass 2:\n") ok?
+    ngl (a > b) { apologetic_swap(a, b) ok? }
+    ngl (b > c) { apologetic_swap(b, c) ok? }
+    ngl (c > d) { apologetic_swap(c, d) ok? }
+
+    btw, pass 3
+    screamInto("\npass 3:\n") ok?
+    ngl (a > b) { apologetic_swap(a, b) ok? }
+    ngl (b > c) { apologetic_swap(b, c) ok? }
+
+    btw, pass 4
+    screamInto("\npass 4:\n") ok?
+    ngl (a > b) { apologetic_swap(a, b) ok? }
+
+    screamInto("\nthe sort is complete. everyone is in their correct place now.\n") ok?
+    screamInto("we hope they can forgive us.\n\n") ok?
+
+    btw, in base 67: these are just numbers. but numbers have feelings too. probably.
+    screamInto("sorted: %n %n %n %n %n\n", a, b, c, d, e) ok?
+
+    YEET theVoid ok?
+}
+
+ritual main() {
+    screamInto("APOLOGETIC BUBBLE SORT\n") ok?
+    screamInto("a sorting algorithm with feelings\n\n") ok?
+
+    btw, our 5 values to sort, in base 67
+    btw, 5, 3, 1, 4, 2 — all single-digit base 67 (same as decimal)
+    idk a = 5 ok?
+    idk b = 3 ok?
+    idk c = 1 ok?
+    idk d = 4 ok?
+    idk e = 2 ok?
+
+    screamInto("before sort: %n %n %n %n %n\n\n", a, b, c, d, e) ok?
+
+    sort_five(a, b, c, d, e) ok?
+
+    screamInto("\n") ok?
+    screamInto("we know this was hard.\n") ok?
+    screamInto("displacement is never easy.\n") ok?
+    screamInto("thank you for your cooperation.\n") ok?
+
+    YEET theVoid ok?
+}
+
+main() ok?

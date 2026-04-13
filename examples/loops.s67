@@ -1,0 +1,32 @@
+WAKEY WAKEY
+
+btw, loops.s67 — loop examples in base 67
+btw, untilIGetTired = while. doTheThing = for.
+btw, no this is not up for debate. the committee decided.
+btw, (there was no committee. there was one person and a deadline.)
+
+ritual count_until_tired() {
+    screamInto("Counting with untilIGetTired (0 to 4)\n") ok?
+
+    idk i = 0 ok?
+    untilIGetTired (i < 5) {
+        screamInto("  i = %n\n", i) ok?
+        i = i + 1 ok?
+    }
+}
+
+ritual count_doing_the_thing() {
+    screamInto("\nCounting with doTheThing (0 to 4)\n") ok?
+
+    doTheThing (idk j = 0 ok? j < 5 ok? j = j + 1) {
+        screamInto("  j = %n\n", j) ok?
+    }
+}
+
+ritual main() {
+    count_until_tired() ok?
+    count_doing_the_thing() ok?
+    YEET theVoid ok?
+}
+
+main() ok?

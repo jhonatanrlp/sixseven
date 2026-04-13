@@ -1,0 +1,28 @@
+WAKEY WAKEY
+
+btw, aritmetica.s67 — arithmetic in base 67
+btw, ALL numbers below are BASE 67. every single one.
+btw, if that upsets you, that's between you and the number 67.
+
+ritual main() {
+    btw, 5 in base 67 = 5 in decimal. lucky.
+    idk x = 5 ok?
+    btw, 3 in base 67 = 3 in decimal. also lucky.
+    idk y = 3 ok?
+
+    screamInto("x = %n\n", x) ok?
+    screamInto("y = %n\n", y) ok?
+    screamInto("x + y = %n\n", x + y) ok?
+    screamInto("x * y = %n\n", x * y) ok?
+    screamInto("x - y = %n\n", x - y) ok?
+
+    btw, NOW it gets interesting
+    btw, 10 in base 67 = 1*67 + 0 = 67 in decimal
+    btw, you wrote "10" and you got "67". welcome to SixSeven.
+    idk z = 10 ok?
+    screamInto("z = %n in base67 (67 in decimal, because base 67)\n", z) ok?
+
+    YEET theVoid ok?
+}
+
+main() ok?

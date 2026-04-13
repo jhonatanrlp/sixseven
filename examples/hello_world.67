@@ -1,0 +1,55 @@
+WAKEY WAKEY
+
+btw, hello_world.67 — a hello world program that takes 3 dramatic detours
+btw, before getting to the point. because that's who we are now.
+btw, all numbers are base 67. 10 means 67. you're welcome.
+
+btw, DETOUR 1: we must first consider whether "hello" is even the right word
+ritual consider_the_word(word) {
+    screamInto("hm. '%s'. is that really what we want to say?\n", word) ok?
+    screamInto("let me think about it.\n") ok?
+    vibeCheck() ok?
+    btw, if vibeCheck() didn't kill us, we're good to proceed
+    screamInto("yeah ok. '%s' works.\n", word) ok?
+    YEET word ok?
+}
+
+btw, DETOUR 2: we must ensure the world is worthy of being greeted
+ritual check_world_readiness() {
+    idk result = chaos() ok?
+    btw, chaos() returns a number, prints something passive-aggressive, or does nothing
+    btw, we'll never know which. this is fine.
+    screamInto("world readiness check complete.\n") ok?
+    YEET theVoid ok?
+}
+
+btw, DETOUR 3: we must introduce ourselves before greeting
+ritual introduce_self() {
+    screamInto("btw, we are a SixSeven program.\n") ok?
+    screamInto("btw, all our numbers are in base 67.\n") ok?
+    screamInto("btw, 10 means 67. 20 means 134. you'll get used to it.\n") ok?
+    screamInto("btw, we're sorry.\n") ok?
+    YEET theVoid ok?
+}
+
+btw, the actual hello world
+ritual main() {
+    btw, detour 1
+    idk greeting = consider_the_word("hello") ok?
+    btw, the return from consider_the_word is a string, we think
+    btw, depends on whether vibeCheck() survived
+
+    btw, detour 2
+    check_world_readiness() ok?
+
+    btw, detour 3
+    introduce_self() ok?
+
+    btw, FINALLY. hello world. we made it.
+    screamInto("Hello, World!\n") ok?
+    screamInto("(it took us 3 detours but we got here)\n") ok?
+
+    YEET theVoid ok?
+}
+
+main() ok?

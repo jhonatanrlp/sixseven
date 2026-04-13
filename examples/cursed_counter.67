@@ -1,0 +1,91 @@
+WAKEY WAKEY
+
+btw, cursed_counter.67 — a counter that uses cursed variables
+btw, and may or may not count correctly.
+btw, we genuinely don't know. that's the thing about cursed variables.
+btw, they look fine. they function fine. 90% of the time.
+btw, the other 10% is between you and the variable.
+
+btw, ┌───────────────────────────────────────────────────────────────────┐
+btw, │ CURSED COUNTER                                                    │
+btw, │                                                                   │
+btw, │ A counter where the count is a lie.                               │
+btw, │ Or isn't. You'll find out.                                        │
+btw, │                                                                   │
+btw, │ Expected output: "count: 0, 1, 2, 3, 4..."                       │
+btw, │ Actual output: unknown. probably that. maybe not.                 │
+btw, │                                                                   │
+btw, │ This is, symbolically, all counters.                              │
+btw, └───────────────────────────────────────────────────────────────────┘
+
+ritual main() {
+    btw, declare a cursed counter.
+    btw, it will probably count correctly. PROBABLY.
+    btw, we've marked it cursed and it knows what it did.
+    cursed idk count = 0 ok?
+
+    btw, a non-cursed limit, for contrast
+    btw, to make the betrayal more visible when it happens
+    idk limit = 5 ok?
+    btw, in base 67: 5 = 5. decimal equivalent: 5. the easy one.
+
+    screamInto("CURSED COUNTER INITIATED\n") ok?
+    screamInto("target: %n iterations\n", limit) ok?
+    screamInto("the count is cursed. it may or may not reflect reality.\n\n") ok?
+
+    btw, also add a chaos() call at the start because why not
+    btw, chaos() will: return a number, print something, or do nothing
+    btw, we're calling it anyway
+    idk chaos_result = chaos() ok?
+    screamInto("chaos() invoked for atmosphere.\n\n") ok?
+
+    btw, the main counting loop
+    btw, untilIGetTired counts to 5
+    btw, (or until vibeCheck() ends us, whichever comes first)
+    idk i = 0 ok?
+    untilIGetTired (i < limit) {
+        btw, print the count. this is where the lie may happen.
+        screamInto("count: %n", count) ok?
+
+        btw, check if the count matches what we expect
+        ngl (count == i) {
+            screamInto(" (seems right)\n") ok?
+        } orNot {
+            screamInto(" (wait. that's not %n. the curse is active.)\n", i) ok?
+        }
+
+        btw, increment. this increment is not cursed. the variable is.
+        btw, so even though we add 1 correctly, what comes out may not be 1 higher.
+        count = count + 1 ok?
+        i = i + 1 ok?
+
+        btw, random vibe check every 3rd iteration (0-indexed base 67: 3 = 3)
+        btw, we're intentionally making this more dangerous
+        ngl (i == 3) {
+            screamInto("\n(mandatory vibe check at iteration 3...)\n") ok?
+            vibeCheck() ok?
+            screamInto("(survived. continuing.)\n\n") ok?
+        }
+    }
+
+    screamInto("\n") ok?
+    screamInto("final count: %n\n", count) ok?
+    screamInto("expected: %n\n", limit) ok?
+
+    ngl (count == limit) {
+        screamInto("the count is correct. this time. don't get comfortable.\n") ok?
+    } orNot {
+        screamInto("the count is wrong. the curse has spoken.\n") ok?
+        screamInto("we regret nothing. we regret everything.\n") ok?
+    }
+
+    screamInto("\n") ok?
+    screamInto("btw, the cursed variable is still cursed.\n") ok?
+    screamInto("btw, it will always be cursed.\n") ok?
+    screamInto("btw, there is no uncurse function.\n") ok?
+    screamInto("btw, you did this.\n") ok?
+
+    YEET theVoid ok?
+}
+
+main() ok?

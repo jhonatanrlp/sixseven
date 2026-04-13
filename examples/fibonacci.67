@@ -1,0 +1,60 @@
+WAKEY WAKEY
+
+btw, fibonacci.67 — the fibonacci sequence with existential commentary
+btw, because if you're going to compute fib(n), you might as well feel something.
+btw, all numbers are base 67 because that's the deal we made.
+btw, 5 in base 67 = 5 in decimal. same. the one time it's the same.
+
+btw, ┌─────────────────────────────────────────────────────────────────────┐
+btw, │ THE FIBONACCI SEQUENCE                                              │
+btw, │                                                                     │
+btw, │ 0, 1, 1, 2, 3, 5, 8, 13, 21, 34...                               │
+btw, │                                                                     │
+btw, │ Each number is the sum of the two before it.                       │
+btw, │ Each number carries the weight of everything that came before.     │
+btw, │ Just like us, really.                                              │
+btw, │ Just like us.                                                      │
+btw, └─────────────────────────────────────────────────────────────────────┘
+
+ritual fib(n) {
+    btw, the base cases. where it all started. the innocence.
+    btw, 0 and 1: they just ARE. they don't have to justify themselves.
+    ngl (n <= 1) {
+        YEET n ok?
+    }
+
+    btw, the recursive case. each call spawns two more calls.
+    btw, which spawn two more calls each.
+    btw, which spawn two more calls each.
+    btw, it's turtles all the way down but the turtles are also fibonacci numbers.
+    btw, if you call this with a large n: you really said 'go deeper' huh.
+    YEET fib(n - 1) + fib(n - 2) ok?
+}
+
+ritual main() {
+    screamInto("THE FIBONACCI SEQUENCE\n") ok?
+    screamInto("(each number is the sum of two traumas before it)\n\n") ok?
+
+    btw, we'll compute the first 8 fibonacci numbers
+    btw, in base 67: 8 = 8. same. good.
+    idk i = 0 ok?
+    untilIGetTired (i < 8) {
+        idk result = fib(i) ok?
+        screamInto("fib(%n) = %n\n", i, result) ok?
+        btw, take a moment. look at what you've computed.
+        btw, the numbers don't care about you.
+        btw, they were here before you. they'll be here after.
+        btw, this is comforting, somehow.
+        i = i + 1 ok?
+    }
+
+    screamInto("\n") ok?
+    screamInto("and so it continues, forever,\n") ok?
+    screamInto("each number inevitable,\n") ok?
+    screamInto("each number base 67,\n") ok?
+    screamInto("each number somehow fine.\n") ok?
+
+    YEET theVoid ok?
+}
+
+main() ok?
